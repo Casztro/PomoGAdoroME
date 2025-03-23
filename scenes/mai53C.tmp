@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://bcuuwrxt1hv7f"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_5wmqj"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_5wmqj")
+
+[node name="TimerLabel" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "25:00"
+
+[node name="AutoToggleButton" type="Button" parent="."]
+offset_left = 7.0
+offset_top = 123.0
+offset_right = 126.0
+offset_bottom = 154.0
+text = "Modo: Manual"
+
+[node name="StartButton" type="Button" parent="."]
+offset_left = 484.0
+offset_top = 138.0
+offset_right = 541.0
+offset_bottom = 169.0
+text = "Iniciar"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
